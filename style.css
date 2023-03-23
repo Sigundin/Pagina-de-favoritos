@@ -3,16 +3,16 @@ font-family: 'Montserrat', sans-serif;
 margin: 0 6%;
 }
 
+.arquivoImagem{
+    display: none;
+}
+
 .adicionarFavorito{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 400px;
     width: 300px;
-}
-
-.arquivoImagem{
-    
 }
 
 .botaoadicionar{
@@ -30,6 +30,15 @@ margin: 0 6%;
 .botaoadicionar:hover{
     border-color: yellow;
     color: yellow;
+}
+
+.botaoImagem{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .cardFavoritos{
